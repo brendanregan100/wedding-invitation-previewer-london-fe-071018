@@ -1,0 +1,46 @@
+ <!DOCTYPE html>
+ <html>
+   <head>
+     <link rel="stylesheet" type="text/css" href="index.css">
+     <script src="index.js"></script>
+     <meta name="title" content="Wedding Invitation Planner">
+     <meta name="description" content="A nice wedding planner invitation tool, completely FREE to use">
+     <meta name="viewport" content="width=device-width,initial-scale=1.0">
+   </head>
+   <body>
+     <h1 class="title">Pippi's Custom Wedding Invitation Designer</h1>
+     <div class="interface">
+       <div class="input">
+         <div class="options"></div>
+        <hr>
+        <form>
+          <label for="first-spouse">First Partner</label>
+          <input id="first-spouse" placeholder="First Partner" type="text">
+          <label for="second-spouse">Second Partner</label>
+          <input id="second-spouse" placeholder="Second Partner" type="text">
+          <label for="invite">Invite Message</label>
+          <input id="invite" placeholder="Invite message" type="text">
+          <label for="date">Date of the Event</label>
+          <input id="date" placeholder="Date of the Event" type="date">
+          <label for="location">Location of the Event</label>
+          <input id="location" placeholder="Location of the Event" type="text">
+        </form>
+      </div>
+      <div class="display">
+        <h2 id="display-title">
+          Select a Theme
+        </h2>
+        <div class="preview">
+          <img id="preview-img" />
+          <span id="display-first-spouse"></span><br>
+          <span id="display-second-spouse"></span><br>
+          <span id="display-invite"></span><br>
+          <span id="display-date"></span><br>
+          <span id="display-location"></span><br>
+        </div>
+      </div>
+    </div>
+    
+    <iframe id="wedding" width="501" height="376" src="https://www.youtube.com/embed/cMfrLFirGWc" frameborder="0" autoplay="autoplay"></iframe>
+  </body>
+ </html>

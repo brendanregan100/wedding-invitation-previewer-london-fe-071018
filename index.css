@@ -1,0 +1,127 @@
+ body {
+   background: #FFFDD0;
+   color: #50C878;
+   font-size: 3vw;
+ }
+ 
+ h1 {
+   text-align: center;
+   font-size: 3vw;
+   background-color: #CFB53B;
+   border-style: block;
+   border-color: #50C878;
+   padding: 2vw;
+ }
+ 
+ .interface {
+   display: flex;
+  justify-content: space-around;
+}
+ .input, .display {
+  padding: 2vw;
+}
+ .options {
+  display: flex;
+  flex-wrap: wrap;
+   justify-content: space-between;
+ }
+ 
+ .options button {
+   font-size: 2vw;
+   font-weight: bold;
+   margin: 1vw;
+   border-radius: 15px;
+   background-color: #CFB53B;
+   color: #50C878;
+   width: 12vw;
+   border: 2px #CFB53B solid;
+   transition: color 0.8s linear, background-color 0.8s linear;
+ }
+ 
+ .options button:hover {
+   background-color: #FFFDD0;
+   color: #50C878;
+   border: 2px #50C878 solid;
+   transition: color 0.2s linear, background-color 0.2s linear;
+ }
+ 
+ form {
+  font-size: 2vw;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  max-height: 0;
+  overflow-y: hidden;
+}
+ form.active {
+  max-height: 90vh;
+  transition: max-height 0.15s ease-in-out;
+}
+ .input {
+   width: 50%;
+ }
+ 
+ .input hr {
+   border: 2px solid #FFFDD0;
+   width: 100%;
+ }
+ 
+ .input label, .input input {
+   font-size: 1.5vw;
+   text-align: left;
+   display: block;
+   background-color: #FFFDD0;
+   color: #CFB53B;
+   width: 50%;
+ }
+ 
+ .input label {
+   margin-top: 2vw;
+ }
+ 
+ .input input {
+   margin-bottom: 2vw;
+ }
+ .display {
+  width: 50%;
+}
+ .display h2 {
+  font-size: 3vw;
+}
+ #preview-img {
+  width: 100%;
+  height: 80vh;
+  border: 15px #CFB53B solid;
+} 
+
+span {
+  color: #CFB53B;
+  background-color: rgba(256,253, 208, 0.9);
+  font-size: 2.0vw;
+  border: 3px #CFB53B solid;
+}
+
+#display-first-spouse {
+  position:relative;top:-430px;left:210px;
+}
+
+#display-second-spouse {
+  position:relative;top:-410px;left:210px;
+}
+
+#display-invite {
+  position:relative;top:-390px;left:70px;
+}
+
+#display-date {
+  position:relative;top:-370px;left:210px;
+}
+
+#display-location {
+  position:relative;top:-350px;left:70px;
+}
+
+#wedding {
+  display: block;
+  margin: 0 auto;
+}
